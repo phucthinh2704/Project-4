@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(120, 2, 120);
+    font-family: "Poppins";
+}
+body {
+    width: 100vw;
+    padding: 40px 80px;
+}
+nav {
+    display: flex;
+}
+nav > div > a {
+    text-decoration: none;
+}
+.nav-left {
+    display: flex;
+    gap: 40px;
+    box-shadow: 2px 2px 3px rgb(182, 180, 180) inset;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(174, 172, 172);
+}
+.nav-left > a, .nav-right > a {
+    box-shadow: 2px 2px 3px rgb(197, 196, 196) inset;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+.nav-right {
+    margin-left: auto;
+}
+.nav-right > a {
+    gap: 20px;
+    padding: 15px 20px;
+    border-radius: 40px;
+}
+.top {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.content {
+    box-shadow: 5px 5px 10px rgb(186, 185, 185) ;
+    width: 60%;
+    height: 200px;
+    border-radius: 20px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.content > h1 {
+    font-size: 40px;
+}
+.mywork, .aboutme {
+    box-shadow: 5px 5px 10px rgb(185, 184, 184) ;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.icon {
+    font-size: 90px;
+    margin-left: 30px;
+}
+.mywork > h1, .aboutme > h1 {
+    font-size: 20px;
+}
+.mywork > a, .aboutme > a {
+    text-decoration: none;
+}
+.mywork > a > i, .aboutme > a > i {
+    margin-left: 5px;
+}
+.bottom {
+    display: flex;
+    gap: 40px;
+}
+.connect {
+    box-shadow: 5px 5px 10px rgb(185, 184, 184) ;
+    width: 20%;
+    height: 200px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.video {
+    box-shadow: 5px 5px 10px rgb(185, 184, 184) ;
+    width: 20%;
+    height: 200px;
+    border-radius: 20px;
+}
+.video > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.skill {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(185, 184, 184);
+    padding: 20px;
+    width: 60%;
+    height: 200px;
+}
+.skill-detail {
+    display: flex;
+}
+.skill-detail > div {
+    padding: 20px 10px;
+    box-shadow: 5px 5px 10px rgb(185, 184, 184) inset;
+    border-radius: 20px;
+    width: 600px;
+    margin-top: 20px;
+    height: 80px;
+    text-align: center;
+}
+.skill-detail > i {
+    font-size: 120px;
+    margin-left: 50px;
+
+}
+.connect > h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.connect > a {
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgb(185, 184, 184);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.connect > p {
+    margin-bottom: 22px;
+}
+

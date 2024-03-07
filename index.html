@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="#">Home</a>
+            <a href="#">Work</a>
+            <a href="#">About</a>
+        </div>
+        <div class="nav-right">
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </nav>
+    <article class="top">
+        <section class="content">
+            <h1>Hi, this is Thinh</h1>
+            <p>Sinh vien Dai Hoc Can Tho</p>
+        </section>
+        <section class="mywork">#
+            <div><a href="#" class="icon"><i class="fa-solid fa-image"></i></a></div>
+            <h1 style="margin-top: 15px;">My Work</h1>
+            <a href="#">Explore<i class="fa-solid fa-right-long"></i></a>
+        </section>
+        <section class="aboutme">
+            <div><a href="#" class="icon"><i class="fa-solid fa-pencil"></i></a></div>
+            <h1 style="margin-top: 15px;">About me</h1>
+            <a href="#">Explore<i class="fa-solid fa-right-long"></i></a>
+        </section>
+    </article>
+    <article class="bottom">
+        <section class="connect">
+            <h1>Available <br> for work</h1>
+            <p>Reach me</p>
+            <a href="#">CONNECT</a>
+        </section>
+        <section class="video">
+            <!-- <video src="https://www.youtube.com/watch?v=1gPKnBKs71U" controls></video> -->
+            <video id="video" src="Snaptik.app_7270417209648778539.mp4"></video>
+        </section>
+        <section class="skill">
+            <h1>Design skills</h1>
+            <div class="skill-detail">
+                <div>Data / HTML & CSS / Figma / Python <br> JavaScript / C#</div>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </section>
+    </article>
+    <script>
+        const video = document.getElementById("video");
+        video.addEventListener("click", () =>
+            {
+                if(video.paused)
+                    video.play();
+                else
+                    video.pause();
+            }
+        );
+    </script>
+</body>
+</html>
